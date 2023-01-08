@@ -1,0 +1,123 @@
+@font-face{
+    font-family: Anton;
+    src: url(Anton/Anton-Regular.ttf);
+    
+}
+@font-face{
+    font-family: open;
+    src: url(OpenSans-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: url(header-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding: 70px 200px;
+}
+.header1{
+    width: 1210px;
+    height: 48px;
+    
+    display: flex;
+    align-items: center;
+    
+}
+.span1{
+    margin: 0 0 0 490px ;
+    
+}
+.a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Anton;
+    margin: 0 40px;
+}
+.a1{
+    margin: 0 40px 0 60px;
+}
+.burning{
+    margin: 200px 0 0 0;
+}
+.span2, .span3{
+    font-size: 2.6em;
+    font-family: Anton;
+}
+.box{
+    width: 300px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a5{
+    text-decoration: none;
+    color: black;
+    font-size: 1.6em;
+    font-family: Anton;
+}
+main{
+    padding: 30px 180px;
+}
+.span4{
+    font-size: 50px;
+    font-family: Anton;
+    margin: 0 0 58px 0;
+}
+.text{
+    display: flex;
+    height: 200px;
+    width: 1170px;
+    
+}
+.span5{
+    font-size: 25px;
+    font-family: Anton;
+    
+}
+.span6{
+    font-size: 25px;
+    font-family: Anton;
+    width: 564px;
+    height: 200px;
+}
+.text1{
+    font-size: 14px;
+    font-family: open;
+    width: 500px;
+    height: 200px;
+    margin: 0 40px 0 0 ;
+    text-align: justify;
+    
+}
+.text2{
+    font-size: 14px;
+    font-family: open;
+    width: 500px;
+    height: 210px;
+    text-align: justify;
+
+}
+.img2{
+    margin: 0 20px;
+}
+footer{
+    margin: 114px 0 0 180px;
+    display: flex;
+}
+.text3{
+    font-family: open;
+    
+    position: relative;
+}
+.text4{
+    margin-left: 300px;
+    margin-bottom: 250px;
+    position: absolute;
+    font-family: open;
+}
